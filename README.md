@@ -44,18 +44,18 @@ Borrow out = A'Bin + A'B + BBin
 
 Write the detailed procedure here
 
-1.) Type the program in Quartus software.
-2.) Compile and run the program.
-3.) Generate the RTL schematic and save the logic diagram.
-4.) Create nodes for inputs and outputs to generate the timing diagram.
-5.) For different input combinations generate the timing diagram.
+1).Type the program in Quartus software.
+ 2).Compile and run the program.
+ 3).Generate the RTL schematic and save the logic diagram.
+ 4).Create nodes for inputs and outputs to generate the timing diagram.
+ 5).For different input combinations generate the timing diagram
 
 **Program:**
 
-FULL ADDER
-module fulladder(sum,cout,a,b,cin);output sum;
-output cout;
-input a;
+ FULL ADDER
+ module fulladder(sum, cout, a, b, cin); output sum;
+ output cout;
+  input a;
  input b;
  input cin;
  wire w1,w2,w3;
@@ -66,8 +66,7 @@ input a;
  assign cout=w2|w3;
  endmodule
 
- FULL SUBTRACTOR
-
+FULL SUBTRACTOR
  module fullsub(df,bo,a,b,bin); 
 output df;
  output bo; 
@@ -81,7 +80,7 @@ assign w3=(~w1&bin);
 assign df=w1^bin; 
 assign bo=w2|w3; 
 endmodule
-
+ 
 Developed by: B.VIMALRAJ.
 Register Number:24900283.
 
