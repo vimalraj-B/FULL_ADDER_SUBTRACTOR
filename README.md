@@ -86,12 +86,16 @@ Developed by: B.VIMALRAJ.
 Register Number:24900283.
 
 **RTL Schematic**
+
+
 ![logic gate exp 4](https://github.com/user-attachments/assets/5b85de61-e151-43cf-bcec-69029fa0a02b)
+
 ![logic gate  exp 4](https://github.com/user-attachments/assets/1a0e5602-e4bc-4fc1-b5ab-7fb045385d20)
 
-**Output Timing Waveform
+**Output Timing Waveform**
+
 ![Full adder exp 4](https://github.com/user-attachments/assets/556b28f6-d796-48a9-8f5f-52333bc5d467)
-**
+
 ![full sub exp 4](https://github.com/user-attachments/assets/9a411f2e-9e12-4c01-8cfb-ec5725955485)
 
 **Result:**
