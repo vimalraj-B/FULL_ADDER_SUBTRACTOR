@@ -87,15 +87,19 @@ Register Number:24900283.
 
 **RTL Schematic**
 
+FULL ADDER:
 
 ![logic gate exp 4](https://github.com/user-attachments/assets/5b85de61-e151-43cf-bcec-69029fa0a02b)
+FULL SUBTRACTOR:
 
 ![logic gate  exp 4](https://github.com/user-attachments/assets/1a0e5602-e4bc-4fc1-b5ab-7fb045385d20)
 
 **Output Timing Waveform**
+FULL ADDER:
 
 ![Full adder exp 4](https://github.com/user-attachments/assets/556b28f6-d796-48a9-8f5f-52333bc5d467)
 
+FULL SUBTRACTOR:
 ![full sub exp 4](https://github.com/user-attachments/assets/9a411f2e-9e12-4c01-8cfb-ec5725955485)
 
 **Result:**
