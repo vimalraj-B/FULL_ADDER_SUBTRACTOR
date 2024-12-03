@@ -44,27 +44,13 @@ Borrow out = A'Bin + A'B + BBin
 
 Write the detailed procedure here
 
+![Screenshot 2024-12-03 135850](https://github.com/user-attachments/assets/5216ea26-b3fe-491b-9349-74c0373ac1e4)
 
 
 **Program:**
 
- i)FULL ADDER
+![Screenshot 2024-12-03 135749](https://github.com/user-attachments/assets/3a3a3f96-102c-401c-8bc3-550e8ff87875)
 
-module fa(a,b,cin,sum,carry);
-input a,b,cin;
-output sum,carry;
-assign sum=( (a ^ b)^c);
-assign carry= ( (a & b)| ( cin &(a ^ b ));
-endmodule
-
-ii)FULL SUBTRACTOR
-
-module fs(a,b,difference,borrow);
-input a,b,bin;
-output difference,borrow;
-assign difference= ( (a ^ b)^bin);
-assign borrow= ( ( a & b)| ( bin & ((a ^ b )));
-endmodule
 
 Developed by: B.VIMALRAJ.
 Register Number:24900283.
