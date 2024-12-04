@@ -1,4 +1,4 @@
-# FULL_ADDER_SUBTRACTOR
+![Full adder EXP 4 (3)](https://github.com/user-attachments/assets/a0810623-2296-497c-aa2a-351c811fa1ad)# FULL_ADDER_SUBTRACTOR
 
 Implementation-of-Full-Adder-and-Full-subtractor-circuit
 
@@ -37,40 +37,79 @@ Diff = A ⊕ B ⊕ Bin
 Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
-![sum exp 4](https://github.com/user-attachments/assets/ebd05044-f549-4dae-824b-a1ae451752f0)
-![subtracter exp 4](https://github.com/user-attachments/assets/89dc086f-9ac0-47d7-bcc6-f532e4398fa8)
+
+![Full adder EXP 4 (3)](https://github.com/user-attachments/assets/c6cfe465-e813-42ac-9d43-3723d740a26a)
+
+
+![Full subtractor EXP 4 (3)](https://github.com/user-attachments/assets/fa3dbb52-4883-43dd-a709-a3af23aaddc1)
 
 **Procedure**
 
 Write the detailed procedure here
 
-![Screenshot 2024-12-03 135850](https://github.com/user-attachments/assets/5216ea26-b3fe-491b-9349-74c0373ac1e4)
+```
 
+1).Type the program in Quartus software.
+
+2).Compile and run the program.
+
+3).Generate the RTL schematic and save the logic diagram.
+
+4).Create nodes for inputs and outputs to generate the timing diagram.
+
+5).For different input combinations generate the timing diagram
+
+```
 
 **Program:**
+```
 
-![Screenshot 2024-12-03 135749](https://github.com/user-attachments/assets/3a3a3f96-102c-401c-8bc3-550e8ff87875)
+FULL ADDER
 
+module fa(a,b,cin,sum,carry);
+input a,b,cin;
+output sum,carry;
+assign sum=( (a ^ b)^c);
+assign carry= ( (a & b)| ( cin &(a ^ b ));
+endmodule
+
+FULL SUBTRACTOR
+
+module fs(a,b,difference,borrow);
+input a,b,bin;
+output difference,borrow;
+assign difference= ( (a ^ b)^bin);
+assign borrow= ( ( a & b)| ( bin & ((a ^ b )));
+endmodule
+
+```
+
+```
 
 Developed by: B.VIMALRAJ.
 Register Number:24900283.
 
+```
 **RTL Schematic**
 
-FULL ADDER:
 
-![logic gate exp 4](https://github.com/user-attachments/assets/5b85de61-e151-43cf-bcec-69029fa0a02b)
-FULL SUBTRACTOR:
+![Full adder EXP 4](https://github.com/user-attachments/assets/d5f02dd3-cc66-495c-883d-8925c1cb4d2c)
 
-![logic gate  exp 4](https://github.com/user-attachments/assets/1a0e5602-e4bc-4fc1-b5ab-7fb045385d20)
+
+
+![Full subtractor EXP 4](https://github.com/user-attachments/assets/9adacc8d-6246-494c-b5d1-d2a3ded1a198)
+
+
 
 **Output Timing Waveform**
-FULL ADDER:
 
-![Full adder exp 4](https://github.com/user-attachments/assets/556b28f6-d796-48a9-8f5f-52333bc5d467)
 
-FULL SUBTRACTOR:
-![full sub exp 4](https://github.com/user-attachments/assets/9a411f2e-9e12-4c01-8cfb-ec5725955485)
+![Full adder EXP 4 (2)](https://github.com/user-attachments/assets/a6c538cc-0c80-4a39-a60d-2b756323ca24)
+
+
+
+![Full subtractor EXP 4 (2)](https://github.com/user-attachments/assets/efe2f1da-9eca-4acf-bd0c-d98522d59cba)
+
 
 **Result:**
 
