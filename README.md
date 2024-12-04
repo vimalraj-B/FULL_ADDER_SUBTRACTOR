@@ -1,5 +1,3 @@
-![Full adder EXP 4 (3)](https://github.com/user-attachments/assets/a0810623-2296-497c-aa2a-351c811fa1ad)# FULL_ADDER_SUBTRACTOR
-
 Implementation-of-Full-Adder-and-Full-subtractor-circuit
 
 **AIM:**
