@@ -70,12 +70,12 @@ module fa(a,b,cin,sum,carry);
 input a,b,cin;
 output sum,carry;
 assign sum=( (a ^ b)^c);
-assign carry= ( (a & b)| ( cin &(a ^ b ));
+assign carry= ( (a & b)| ( cin &(a ^ b )));
 endmodule
 
 FULL SUBTRACTOR
 
-module fs(a,b,difference,borrow);
+module fs(a,b,bin,difference,borrow);
 input a,b,bin;
 output difference,borrow;
 assign difference= ( (a ^ b)^bin);
@@ -93,9 +93,11 @@ Register Number:24900283.
 **RTL Schematic**
 
 
+FULL ADDER
+
 ![Full adder EXP 4](https://github.com/user-attachments/assets/d5f02dd3-cc66-495c-883d-8925c1cb4d2c)
 
-
+FULL SUBTRACTOR
 
 ![Full subtractor EXP 4](https://github.com/user-attachments/assets/9adacc8d-6246-494c-b5d1-d2a3ded1a198)
 
@@ -104,8 +106,13 @@ Register Number:24900283.
 **Output Timing Waveform**
 
 
+FULL ADDER
+
+
 ![Full adder EXP 4 (2)](https://github.com/user-attachments/assets/a6c538cc-0c80-4a39-a60d-2b756323ca24)
 
+
+FULL SUBTRACTOR
 
 
 ![Full subtractor EXP 4 (2)](https://github.com/user-attachments/assets/efe2f1da-9eca-4acf-bd0c-d98522d59cba)
